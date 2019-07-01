@@ -3,7 +3,7 @@
 
 public static void main(String[] args) throws Exception {
 
-    DataSet ds = new 
+    DataSet ds = new DateSet<Tuple7<String, String, String, String, String, String, Integer>>;
     /* sink to kafka */
     // ds is the DataSet
     ds.output(KafkaOutputFormat.buildKafkaOutputFormat()
